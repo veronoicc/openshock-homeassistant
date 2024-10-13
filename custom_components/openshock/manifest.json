@@ -6,8 +6,8 @@
   ],
   "config_flow": true,
   "documentation": "https://github.com/veronoicc/openshock-homeassistant",
+  "integration_type": "hub",
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/veronoicc/openshock-homeassistant/issues",
-  "version": "0.1.0",
-  "integration_type": "hub"
+  "version": "0.1.0"
 }
