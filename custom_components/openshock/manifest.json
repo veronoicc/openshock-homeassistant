@@ -1,0 +1,13 @@
+{
+  "domain": "openshock",
+  "name": "OpenShock",
+  "codeowners": [
+    "@veronoicc"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/veronoicc/openshock-homeassistant",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/veronoicc/openshock-homeassistant/issues",
+  "version": "0.1.0",
+  "integration_type": "hub"
+}

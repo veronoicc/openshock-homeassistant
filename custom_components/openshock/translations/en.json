@@ -1,0 +1,63 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "description": "If you need help with the configuration have a look here: https://github.com/veronoicc/openshock-homeassistant",
+                "data": {
+                    "host": "Host",
+                    "api_key": "API Key / Token"
+                }
+            }
+        },
+        "error": {
+            "auth": "Username/Password is wrong.",
+            "connection": "Unable to connect to the server.",
+            "unknown": "Unknown error occurred."
+        },
+        "abort": {
+            "already_configured": "Device is already configured"
+        }
+    },
+    "entity": {
+        "button": {
+            "stop": {
+                "name": "Stop"
+            },
+            "shock": {
+                "name": "Shock"
+            },
+            "vibrate": {
+                "name": "Vibrate"
+            },
+            "sound":
+            {
+                "name": "Sound"
+            }
+        },
+        "number": {
+            "shock_intensity": {
+                "name": "Shock Intensity"
+            },
+            "vibrate_intensity": {
+                "name": "Vibrate Intensity"
+            },
+            "sound_intensity": {
+                "name": "Sound Volume"
+            },
+            "shock_duration": {
+                "name": "Shock Duration"
+            },
+            "vibrate_duration": {
+                "name": "Vibrate Duration"
+            },
+            "sound_duration": {
+                "name": "Sound Duration"
+            }
+        },
+        "binary_sensor": {
+            "paused": {
+                "name": "Paused"
+            }
+        }
+    }
+}
