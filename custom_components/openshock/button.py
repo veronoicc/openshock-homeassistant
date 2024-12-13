@@ -86,7 +86,7 @@ class OpenShockButton(OpenShockEntity, ButtonEntity):
             else 0
         )
         duration = (
-            self.coordinator.intensities[f"{self.command}_duration"]
+            (self.coordinator.intensities[f"{self.command}_duration"] * 1000)
             if self.command != "stop"
             else 300
         )
